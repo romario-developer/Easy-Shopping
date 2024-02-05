@@ -1,4 +1,4 @@
-<h1>Projeto simpes com responsividade</h1>
+<h1>Projeto simples com responsividade</h1>
 
 https://romario-developer.github.io/Easy-Shopping/
 
