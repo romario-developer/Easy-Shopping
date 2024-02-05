@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: #5D5D7D;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    padding-left: 136px;
+    margin-top: 25%;
+}
+
+.container-right{
+display: inline-block;
+background-color: rgba(93, 93, 125, 16%);
+height: 100vh;
+width: 40%;
+position: absolute;
+}
+
+.ilustracao{
+    position: relative;
+    top:25%;
+    right: 130px;
+}
+
+h1{
+    width: 368px;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+p{
+    width: 540px;
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 60%;
+    margin: 15px 0 15px;
+}
+
+button{
+    width: 269px;
+    height: 62px;
+    color: #FFFFFF;
+    background-color: #9499EA;
+    font-size: 24px;
+    line-height: 34.57px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+button:hover{
+    opacity: .8;
+}
+
+button:active{
+    opacity: .5;
+}
+
+a {
+    font-size:28px;
+    Line-height:41.5px;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2){
+    Opacity:40%;
+}
+
+a:hover{
+    Opacity:40%;
+}
+
+a:active{
+    Opacity:80%;
+}
+
+
+header {
+    margin: 24px 0 0 57px;
+}
+
+
+@media screen and (max-width:900px) {
+    .container-left{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-right{
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+    .ilustracao{
+        position: static;
+        width: 271px;
+        
+    }
+
+    header{
+        display: none;
+    }
+
+    h1{
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 58px 0 50px;
+        text-align: center;
+    }
+
+    p{
+       margin: 15px 40px;
+       width: auto;
+       text-align: center;
+       font-size: 14px;
+       line-height: 24px; 
+    }
+
+    button{
+        display: block;
+        margin: 0 auto;
+    }
+}
